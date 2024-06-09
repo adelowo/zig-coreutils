@@ -1,5 +1,5 @@
 const std = @import("std");
 
 pub fn main() !void {
-    std.debug.print("Hello world\n", .{});
+    @panic("You cannot use this directly. Please use the commands directly");
 }
